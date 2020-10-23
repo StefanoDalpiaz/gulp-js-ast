@@ -14,7 +14,7 @@ while supporting ECMAScript 2020 syntax.
 The following code sample searches for all instances of `console.log` calls in the code, and replaces them with `myLog.log`:
 
 ```javascript
-const AST = require('gulp-ast');
+const AST = require('gulp-js-ast');
 
 const findAndReplaceLogCalls = function() {
   return AST.transform(function(ast) {
